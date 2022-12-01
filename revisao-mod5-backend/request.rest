@@ -1,4 +1,4 @@
-GET http://localhost:3003/character
+GET http://localhost:3003/character?name=o&page=2
 
 ###
 PUT http://localhost:3003/character
@@ -11,5 +11,5 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:3003/character/3
+DELETE http://localhost:3003/character/4
 
