@@ -3,3 +3,4 @@ package-lock.json
 build
 requests.rest
 .env
+.vscode

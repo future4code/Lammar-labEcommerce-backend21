@@ -1,16 +1,15 @@
-import express, {Express} from "express"
+import express, { Express } from "express";
+import dotenv from "dotenv";
 
-import cors from 'cors'
-const app: Express = express()
-app.use(express.json())
-app.use(cors())
+dotenv.config();
 
+import cors from "cors";
+const app: Express = express();
+app.use(express.json());
+app.use(cors());
 
-
-
-app.listen(3003, () => {
-    console.log("Server is running in http://localhost:3003");
+app.listen(process.env.DB_PORT || 3003, () => {
+  console.log("Server is running in http://localhost:3003");
 });
 
-
-export default app
+export default app;

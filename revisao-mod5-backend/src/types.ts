@@ -14,5 +14,5 @@ export type character = {
   id: number;
   name: string;
   gender: GENDER;
-  description?: string
+  description?: string;
 };
