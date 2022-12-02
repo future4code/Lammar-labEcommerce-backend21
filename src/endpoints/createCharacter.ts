@@ -1,5 +1,5 @@
-import { Request, Response } from "express";
 import { connection } from "../connection";
+import {Request, Response} from "express";
 // import { characters } from "../data";
 
 export async function createCharacter(
