@@ -1,5 +1,5 @@
 {
-  "name": "lammar-labecommerce-backend35",
+  "name": "lammar-labecommerce-backend21",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/future4code/Lammar-labEcommerce-backend35.git"
+    "url": "git+https://github.com/future4code/Lammar-labEcommerce-backend21.git"
   },
   "keywords": [],
   "author": "Lamarr-Victor-Motta",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/future4code/Lammar-labEcommerce-backend35/issues"
+    "url": "https://github.com/future4code/Lammar-labEcommerce-backend21/issues"
   },
-  "homepage": "https://github.com/future4code/Lammar-labEcommerce-backend35#readme",
+  "homepage": "https://github.com/future4code/Lammar-labEcommerce-backend21#readme",
   "dependencies": {
     "@types/node": "^18.11.10",
     "dotenv": "^16.0.3",
